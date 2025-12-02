@@ -1,6 +1,6 @@
 ## 📊 SLA Dashboard Preview
 
-![SLA Dashboard](SLA dashboard/updated%20sla%20dashboard%20img.jpg)
+![SLA Dashboard](SLA%20dashboard/updated%20sla%20dashboard%20img.jpg)
 
 
 
