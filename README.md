@@ -1,64 +1,94 @@
+# 📊 SLA / Service Management Analysis Dashboard
+
 ## 📊 SLA Dashboard Preview
 
 ![SLA Dashboard](SLA%20dashboard/updated%20Sla%20dashboard%20img.jpg)
 
-# 📊 SLA Dashboard – Power BI Project
+---
 
-This project contains an interactive Service Level Agreement (SLA) Dashboard built using Microsoft Power BI. The dashboard provides a visual overview of SLA performance, enabling users to monitor service efficiency, identify delays, and track compliance over time.
+## 📌 Project Overview
+This project analyzes service ticket data to evaluate Service Level Agreement (SLA) performance and identify operational inefficiencies. The solution includes interactive dashboards and complete Business Analyst documentation to support decision-making and performance monitoring.
 
-# 🔧 Data Cleaning Steps
-✅ 1. Remove Empty or Irrelevant Rows
+---
 
-✅ 2. Standardize Column Names
+## 🎯 Project Objective
+- 📈 Monitor SLA compliance across service tickets  
+- ⏳ Identify delays in ticket resolution  
+- 🔍 Analyze priority-based performance  
+- 💡 Provide insights to improve service efficiency  
 
-✅ 3. Fix Date & Time Formatting
+---
 
-✅ 4. Handle Missing Values
+## 🧩 Business Problem
+The organization handles a high volume of service requests but lacks visibility into SLA performance. This results in delayed resolutions and difficulty identifying bottlenecks. This project helps management track performance using structured analysis and reporting dashboards.
 
-✅ 5. Normalize Priority / Severity Levels
+---
 
-✅ 6. Calculate SLA Time Fields
+## 👥 Stakeholders
+- 🖥 Service Desk Team  
+- 📊 Operations Management  
+- 🔧 IT Support Teams  
+- 🏢 Business Leadership  
 
-✅ 7. Remove Duplicates
+---
 
-✅ 8. Clean Text Data
+## 🔧 Data Cleaning Steps
+- 🧹 Remove empty or irrelevant rows  
+- 🏷 Standardize column names  
+- 📅 Fix date and time formatting  
+- ⚠ Handle missing values  
+- 🔄 Normalize priority and severity levels  
+- ⏱ Calculate SLA time fields  
+- ❌ Remove duplicate records  
+- 📝 Clean text data  
+- 📊 Create helper columns for reporting  
+- ✅ Ensure consistent data types  
 
-✅ 9. Create Helper Columns for Reporting
+---
 
-✅ 10. Ensure Consistent Data Types
+## 📊 Key Performance Indicators (KPIs)
+- 📈 SLA Compliance Rate  
+- ⏱ Average Resolution Time  
+- 🔥 Priority-wise SLA Performance  
+- 🚨 Overdue Ticket Count  
+- 📉 Ticket Volume Trends  
 
-# 🔍 Key Features
+---
 
- ✔ Analyzed 3,535 total tickets to identify SLA trends and operational gaps
- 
-✔ Evaluated SLA compliance, which surfaced a critical insight — only 6% of issues met SLA, highlighting major improvement opportunities.
+## 🔍 Key Features
+- 📊 Analyzed 3,535 service tickets to identify SLA trends and operational gaps  
+- 🚨 Identified only 6% SLA compliance highlighting improvement opportunities  
+- 🏷 Segmented tickets by priority showing 67% tagged as unknown  
+- 📅 Evaluated year-wise SLA performance trends  
+- 📌 Compared solved vs unresolved tickets for workload understanding  
+- ⚠ Analyzed SLA breaches across issue types  
+- 🎛 Built interactive filters for dynamic performance analysis  
 
-✔ Segmented tickets by priority, revealing that 67% were tagged as “unknown”, impacting SLA accuracy.
+---
 
-✔ Explored year-wise SLA performance, uncovering fluctuating compliance rates from 10.1% to 16.9%, with a noticeable dip in recent years.
+## 🛠 Tools & Technologies Used
+- 📊 Power BI  
+- 📄 Excel  
+- 🔄 Power Query  
+- 🧮 DAX  
 
-✔ Compared solved vs unsolved issues, showing 3,051 resolved and 484 pending, helping understand workload distribution.
+---
+## 📁 Project Structure
+# SLA-Dashboard/
+# ├ dashboards/
+# ├ datasets/
+# ├ documentation/
+# │ ├ BRD
+# │ ├ FRD
+# │ ├ KPI
+# │ ├ UAT
+# │ ├ Process Flow
+# ├ screenshots/
+# └ README.md
 
-✔ Analyzed breached SLA time by issue type, where ticket-level items showed the highest SLA breaches.
+## 👨‍💻 Author
+Ganesh Barade  
+Business Analyst | Data & Process Analytics  
 
-✔ Created interactive filters for year, priority, and issue status to support dynamic analysis and decision-making.
-
- # 📊 This dashboard helps quickly spot bottlenecks, visualize SLA performance, and drive actions to enhance service efficiency.
-
-
-
-# 📁 File Included
-
-SLA dashboard.pbix – The full Power BI report file.
-
-Dataset file - Cleaned file ready to use
-
-Dashboard IMG
-
-# 🚀 How to Use
-
-Open the .pbix file in Power BI Desktop.
-
-Refresh or connect to your data source if needed.
-
-Explore the visuals and use the slicers to interact with the report.
+GitHub: https://github.com/ganesh333-wq  
+LinkedIn: https://www.linkedin.com/in/ganeshbarade/
