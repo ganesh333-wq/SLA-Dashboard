@@ -87,8 +87,9 @@ The organization handles a high volume of service requests but lacks visibility 
 # └ README.md
 
 ## 👨‍💻 Author
-Ganesh Barade  
-Business Analyst | Data & Process Analytics  
+## Ganesh Barade  
+B.Tech CSE - Artificial Intelligence and Analytics
+## Business Analyst | Data & Process Analytics  
 
 GitHub: https://github.com/ganesh333-wq  
 LinkedIn: https://www.linkedin.com/in/ganeshbarade/
